@@ -5,8 +5,9 @@
         <field name="model">library.book</field>
         <field name="arch" type="xml">
             <tree string="Book List">
-                <field name="name"/>
-                <field name="isbn_13"/>
+                <field name="name"/>  
+                <field name="isbn_13"/> 
+                <field name="category_id"/>     
             </tree>
         </field>
     </record>
@@ -19,7 +20,8 @@
                 <sheet>
                     <group>
                         <field name="name"/>
-                        <field name="isbn_13"/>
+                        <field name="isbn_13"/>   
+                        <field name="category_id"/>
                     </group>
                 </sheet>
             </form>

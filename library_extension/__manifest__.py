@@ -3,21 +3,19 @@
     "name": "Library",
     "version": "17.0.1.0",
     "depends": [
-        "base"
+        "library"
     ],
     "external_dependencies": {},
     "author": "Odev Solutions",
     "website": "https://www.odevsolutions.com",
-    "summary": """Library""",
+    "summary": """Library_extention""",
     "description": """
-        Library
+        Library Extention
     """,
     "category": "Extra Tools",
     "data": [
         "security/ir.model.access.csv",
-        "views/library_menus.xml",
-        "views/library_book_views.xml",
-        "library_extension/models/"
+        "views/book_category_views.xml"
     ],
     "installable": True,
     "application": False,
